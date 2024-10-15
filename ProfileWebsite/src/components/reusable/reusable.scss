@@ -1,0 +1,12 @@
+.line-component, .title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    hr {
+        max-width: 50%;
+        min-width: 20%;
+        height: 0;
+        margin: auto 0;
+    }
+}

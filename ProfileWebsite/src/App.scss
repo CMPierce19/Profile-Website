@@ -1,0 +1,21 @@
+body  {
+  margin: 0;
+  transition: 0.2s;
+}
+
+.light-mode {
+  color: #242424;
+  background-color: rgb(239, 239, 239);
+}
+
+.page-container {
+  margin: auto 15%;
+  min-height: 80lvh;
+  display: flex;
+  
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  
+}
+
