@@ -12,8 +12,8 @@ const Header = () => {
         <div className="header-container">
             <div className="link-bar">
                 {/*<Link to="/"><h3>Home</h3></Link>*/}
-                <a to="/projects"><h3>Projects</h3></a>
-                <a to="/contact"><h3>Contact</h3></a>
+                <a href="#projects"><h3>Projects</h3></a>
+                <a href="#contact"><h3>Contact</h3></a>
                 <LucideSunMoon className={"toggle-button"} onClick={toggleDisplay}/>
             </div>
         </div>

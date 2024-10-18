@@ -55,6 +55,17 @@
   }
 }
 
+.contact-thank{
+  display: flex;
+  flex-direction: column;
+  .contact-icon{
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+  }
+}
+
 .light-mode{
   .contact-container {
     .contact-form {

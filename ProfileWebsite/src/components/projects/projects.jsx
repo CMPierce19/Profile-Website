@@ -9,7 +9,7 @@ import Wealth from "../../assets/wealth-manage.avif";
 const Projects = () => {
     return (
         <div className={"page-container"}>
-            <div className="projects-container">
+            <div className="projects-container" id={"projects"}>
                 <Title title={"Projects"}/>
                 <div className={"project-cards"}>
                     <ProjectCard
