@@ -1,6 +1,8 @@
-body  {
+body {
   margin: 0;
   transition: 0.2s;
+  color: rgba(239, 239, 239);
+  background-color: #1e1e1e;
 }
 
 .light-mode {
@@ -10,12 +12,15 @@ body  {
 
 .page-container {
   margin: auto 15%;
-  min-height: 80lvh;
+  min-height: 90lvh;
   display: flex;
-  
+
   h1, h2, p {
     margin: 10px 0;
   }
-  
+
+  h1 {
+    font-size: 3rem;
+  }
 }
 
