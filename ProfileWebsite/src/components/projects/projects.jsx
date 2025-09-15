@@ -51,7 +51,7 @@ const Projects = () => {
                         tools={['Unity', 'ProCreate']}
                         languages={['C#']}/>
                     <ProjectCard
-                        title={"Crumbs"}
+                        title={"Memo To Me"}
                         description={"A 2D movement management game developed using Unity and C#, built for the GMTK 2025 Game Jam."}
                         image={MemoToMe}
                         link={"https://willthom1080.itch.io/crumbs"}
