@@ -6,6 +6,7 @@ import HDMI from "../../assets/HDMI-2.avif";
 import Crumbs from "../../assets/Crumbs.avif";
 import KobyScheduler from "../../assets/KobyScheduler.avif";
 import MemoToMe from "../../assets/MemoToMe.avif";
+import DarkDarts from "../../assets/DarkDarts.avif";
 import Wealth from "../../assets/wealth-manage.avif";
 
 
@@ -54,9 +55,16 @@ const Projects = () => {
                         title={"Memo To Me"}
                         description={"A 2D movement management game developed using Unity and C#, built for the GMTK 2025 Game Jam."}
                         image={MemoToMe}
-                        link={"https://willthom1080.itch.io/crumbs"}
+                        link={"https://willthom1080.itch.io/memo-to-me"}
                         tools={['Unity', 'ProCreate']}
-                        languages={['C#']}/>
+                        languages={['C#']}/>`
+                    <ProjectCard
+                        title={"Dark Darts"}
+                        description={"A dart rouge-like game developed using Unity and C#, built for the The Eye Jam II 2026 Game Jam."}
+                        image={DarkDarts}
+                        link={"https://willthom1080.itch.io/the-dark-darts"}
+                        tools={['Unity', 'ProCreate']}
+                        languages={['C#']}/>`
                 </div>
             </div>
         </div>
