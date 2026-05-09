@@ -57,14 +57,14 @@ const Projects = () => {
                         image={MemoToMe}
                         link={"https://willthom1080.itch.io/memo-to-me"}
                         tools={['Unity', 'ProCreate']}
-                        languages={['C#']}/>`
+                        languages={['C#']}/>
                     <ProjectCard
                         title={"Dark Darts"}
                         description={"A dart rouge-like game developed using Unity and C#, built for the The Eye Jam II 2026 Game Jam."}
                         image={DarkDarts}
                         link={"https://willthom1080.itch.io/the-dark-darts"}
                         tools={['Unity', 'ProCreate']}
-                        languages={['C#']}/>`
+                        languages={['C#']}/>
                 </div>
             </div>
         </div>
