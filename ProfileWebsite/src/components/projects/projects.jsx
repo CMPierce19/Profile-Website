@@ -2,7 +2,7 @@ import "./projects.scss";
 import Title from "../reusable/title.jsx";
 import ProjectCard from "./project-card.jsx";
 import KobyImage from "../../assets/koby-learn.avif";
-import HDMI from "../../assets/HDMI-2.avif";
+import MyMichiganCompass from "../../assets/MyMichiganCompass.avif";
 import Crumbs from "../../assets/Crumbs.avif";
 import KobyScheduler from "../../assets/KobyScheduler.avif";
 import MemoToMe from "../../assets/MemoToMe.avif";
@@ -17,31 +17,31 @@ const Projects = () => {
                 <Title title={"Projects"}/>
                 <div className={"project-cards"}>
                     <ProjectCard
-                        title={"Koby Website"}
-                        description={"A React-built static website for an ESL school that offers localization in English and Japanese."}
-                        image={KobyImage}
-                        link={"https://kobylearn.com"}
-                        tools={['React', 'SCSS', 'EmailJS']}
-                        languages={['JavaScript', 'CSS', 'HTML']}/>
-                    <ProjectCard
-                        title={"Money Mentor"}
-                        description={"A full-stack website that integrates the front end and back end, implementing secure authentication and authorization for seamless user interaction. (No Link)"}
-                        image={Wealth}
-                        link={""}
-                        tools={['React', 'SpringBoot', 'AWS RDS', 'MYSQL']}
-                        languages={['JavaScript', 'Java', 'CSS', 'HTML']}/>
+                        title={"My Michigan Compass"}
+                        description={"Website to connect the Japanese community in Michigan. On this site you can discover local jobs, events, marketplace, and Japanese businesses."}
+                        image={MyMichiganCompass}
+                        link={"https://mymichigancompass.com"}
+                        tools={['Payload', 'Cloudflare', 'Vercel', 'Figma']}
+                        languages={['JavaScript', 'TypeScript', 'Tailwind CSS', 'HTML']}/>
                     <ProjectCard
                         title={"Koby Scheduler"}
-                        description={"A scheduler website that leverages Blazor for both the front end and back end, implementing authentication, data management, and integration with .NET services for efficient scheduling and UI. (No Link)"}
+                        description={"A scheduler website that implements authentication, data management, and integration with .NET services for scheduling and UI."}
                         image={KobyScheduler}
                         link={""}
-                        tools={['Blazor', 'MYSQL']}
+                        tools={['Blazor', 'MYSQL', 'Azure', 'AzureSQL', 'When I Work API']}
                         languages={['JavaScript', 'C#', 'CSS', 'HTML']}/>
+                    {/*<ProjectCard*/}
+                    {/*    title={"HDMI"}*/}
+                    {/*    description={"A 3D roguelike game developed using Unity and C#, featuring original artwork and engaging gameplay mechanics."}*/}
+                    {/*    image={HDMI}*/}
+                    {/*    link={"https://store.steampowered.com/app/2947430/HDMI/"}*/}
+                    {/*    tools={['Unity', 'ProCreate']}*/}
+                    {/*    languages={['C#']}/>*/}
                     <ProjectCard
-                        title={"HDMI"}
-                        description={"A 3D roguelike game developed using Unity and C#, featuring original artwork and engaging gameplay mechanics."}
-                        image={HDMI}
-                        link={"https://store.steampowered.com/app/2947430/HDMI/"}
+                        title={"Dark Darts"}
+                        description={"A dart rouge-like game developed using Unity and C#, built for the The Eye Jam II 2026 Game Jam."}
+                        image={DarkDarts}
+                        link={"https://willthom1080.itch.io/the-dark-darts"}
                         tools={['Unity', 'ProCreate']}
                         languages={['C#']}/>
                     <ProjectCard
@@ -59,12 +59,19 @@ const Projects = () => {
                         tools={['Unity', 'ProCreate']}
                         languages={['C#']}/>
                     <ProjectCard
-                        title={"Dark Darts"}
-                        description={"A dart rouge-like game developed using Unity and C#, built for the The Eye Jam II 2026 Game Jam."}
-                        image={DarkDarts}
-                        link={"https://willthom1080.itch.io/the-dark-darts"}
-                        tools={['Unity', 'ProCreate']}
-                        languages={['C#']}/>
+                        title={"Koby Website"}
+                        description={"A React-built static website for an ESL school that offers localization in English and Japanese."}
+                        image={KobyImage}
+                        link={"https://kobylearn.com"}
+                        tools={['React', 'SCSS', 'EmailJS']}
+                        languages={['JavaScript', 'CSS', 'HTML']}/>
+                    <ProjectCard
+                        title={"Money Mentor"}
+                        description={"A full-stack website implementing secure authentication and authorization for seamless user interaction."}
+                        image={Wealth}
+                        link={""}
+                        tools={['React', 'SpringBoot', 'AWS RDS', 'MYSQL']}
+                        languages={['JavaScript', 'Java', 'CSS', 'HTML']}/>
                 </div>
             </div>
         </div>

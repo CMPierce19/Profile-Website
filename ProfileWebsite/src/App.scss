@@ -15,9 +15,15 @@ body {
 }
 
 .page-container {
-  margin: auto 15%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 2rem;
   min-height: 90lvh;
   display: flex;
+  
+  @media (max-width: 768px) {
+    min-height: 50lvh;
+  }
 
   h1, h2, p {
     margin: 10px 0;

@@ -7,17 +7,37 @@ const ProjectCard = ({title, description, link, tools, languages, image}) => {
 
     return (
         <div className="project-card-container">
-            <a target={"_blank"} href={link}> <img src={image} alt={title}/></a>
-            <div className={"description"}>
-                <h2>{title}</h2>
-                <p>{description}</p>
-                <div className={"type-components"}>
-                    <Wrench className={"icon"}/>
-                    <ProjectCarousel components={tools} className={"sliding-components"}/>
+            {link !== "" ? (
+                <div className={"card-image"}>
+                    <a target={"_blank"} href={link}> <img src={image} alt={title}/></a>
                 </div>
-                <div className={"type-components"}>
-                    <Code className={"icon"}/>
-                    <ProjectCarousel components={languages} className={"sliding-components"}/>
+            ) : (
+                <div className={"card-image"}>
+                    <img src={image} alt={title}/>
+                </div>
+            )}
+            <div className={"description"}>
+                <div className={"information"}>
+                    <h2>{title}</h2>
+                    <p>{description}</p>
+                </div>
+                <div className={"information text-information"}>
+                    <div className={"type-components"}>
+                        <Wrench className={"icon"}/>
+                        {tools.map((text, index) => (
+                            <div key={index} style={{margin: "auto 0"}}>
+                                <p style={{margin: "0 6px"}}>{text}</p> 
+                            </div>
+                        ))}
+                    </div>
+                    <div className={"type-components"}>
+                        <Code className={"icon"}/>
+                        {languages.map((text, index) => (
+                            <div key={index} style={{margin: "auto 0"}}>
+                                <p style={{margin: "0 6px"}}>{text}</p> 
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

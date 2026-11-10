@@ -7,6 +7,10 @@
     margin: auto;
     width: 60%;
     min-width: 300px;
+    
+    @media (max-width: 768px) {
+      margin: 0 auto;
+    }
 
     form {
       display: flex;
@@ -14,6 +18,10 @@
       
       h2{
         text-align: center;
+        
+        @media (max-width: 768px) {
+            font-size: 1rem;
+        }
       }
 
       input, textarea {
@@ -26,6 +34,11 @@
         color: #f2efee;
         overflow-wrap: break-word;
         resize: vertical;
+        
+        @media (max-width: 768px) {
+          padding: 10px;
+          font-size: 0.8rem;
+        }
       }
 
       textarea {
