@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <div className={"page-container"}>
             <div className={"contact-container"} id={"contact"}>
-                <Title title="Contact"/>
+                <Title title="Contact"　jTitle={"コンタクト"}/>
                 <div className={"contact-form"}>
                     <form onSubmit={handleSubmit}>
                         <h2>Get In Touch</h2>

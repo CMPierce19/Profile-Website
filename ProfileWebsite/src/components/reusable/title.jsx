@@ -1,9 +1,12 @@
 import "./reusable.scss";
-const Title = ({ title }) => {
+const Title = ({ title, jTitle }) => {
     return(
         <div className={"title-container"}>
             <hr/>
-            <h1>{title}</h1>
+            <div className={"title-trans-container"}>
+                <h3>{jTitle}</h3>
+                <h1>{title}</h1>
+            </div>
             <hr/>
         </div>
     )

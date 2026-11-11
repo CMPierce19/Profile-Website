@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div className={"page-container"}>
             <div className="projects-container" id={"projects"}>
-                <Title title={"Projects"}/>
+                <Title title={"Projects"} jTitle={"プロジェクト"}/>
                 <div className={"project-cards"}>
                     <ProjectCard
                         title={"My Michigan Compass"}

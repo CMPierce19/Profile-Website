@@ -26,11 +26,40 @@ body {
   }
 
   h1, h2, p {
-    margin: 10px 0;
+    margin: 10px 0 0;
+  }
+  
+  h3 {
+    margin: 0px;
   }
 
   h1 {
     font-size: 3rem;
+  }
+}
+
+.trans-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 1rem;
+  
+  h1 {
+    align-self: flex-start;
+    line-height: 1;
+  }
+}
+
+.title-trans-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  text-align: center;
+
+  h1 {
+    align-self: flex-start;
+    line-height: 1;
+    margin: 0 auto 10px;
   }
 }
 
